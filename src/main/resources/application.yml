@@ -15,6 +15,10 @@ eureka:
       preferIpAddress: true
 
 spring:
+  security:
+    user:
+      name: admin
+      password: admin
   application:
     name: company-service
   jpa:
