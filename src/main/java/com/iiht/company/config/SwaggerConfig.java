@@ -17,7 +17,7 @@ public class SwaggerConfig {
     public Docket stockCommandApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("iiht.Company.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.iiht.company.controller"))
                 .build()
                 .apiInfo(metaInfo());
     }
